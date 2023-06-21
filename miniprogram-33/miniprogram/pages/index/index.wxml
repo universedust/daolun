@@ -1,0 +1,19 @@
+<view class="container">
+  <view bindtap="goToPostPage">发帖</view>
+</view>
+
+<view wx:for="{{posts}}" wx:key="_id" class="aaaaaa" style="position: relative; left: -24rpx; top: 125rpx"> 
+  <view class="post">
+    <view>{{item.title}}</view>
+    <navigator url="/pages/post/post?id={{item._id}}">
+      <image src="/images/点赞.png" bindtap="likePost" data-id="{{item._id}}" />
+    </navigator>
+    <text>{{item.likes}}</text>
+  </view>
+  <view class="post">
+    <view>{{item.content}}</view>
+    <navigator url="/pages/comment/comment?postId={{item._id}}">
+      <image src="/images/评论.png" />
+    </navigator>
+  </view>
+</view>

@@ -1,0 +1,42 @@
+.container {
+  padding: 20rpx;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 28rpx;
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
+}
+
+input,
+textarea {
+  height: 200rpx;
+  font-size: 24rpx;
+  resize: none;
+  border-radius: 5rpx;
+  border: 1rpx solid #ddd;
+  padding: 10rpx;
+  margin-bottom: 20rpx;
+  outline: none;
+}
+
+button[type="submit"] {
+  margin-top: 20rpx;
+  background-color: #007aff;
+  border: none;
+  border-radius: 5rpx;
+  color: #fff;
+  font-size: 24rpx;
+  padding: 10rpx 20rpx;
+  outline: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0062cc;
+}

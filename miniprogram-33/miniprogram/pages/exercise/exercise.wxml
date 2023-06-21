@@ -1,0 +1,6 @@
+<!-- exercise.wxml -->
+<view class="container">
+  <text class="title">实时距离监测</text>
+  <text class="time">{{time}}</text>
+  <text class="distance">{{distance}} cm</text>
+</view>

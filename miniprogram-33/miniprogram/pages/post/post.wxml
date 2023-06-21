@@ -1,0 +1,8 @@
+<!--post.wxml-->
+<view class="container">
+  <form bindsubmit="onSubmit">
+    <input name="title" type="text" placeholder="请输入标题"/>
+    <textarea name="content" placeholder="请输入内容"></textarea>
+    <button form-type="submit">提交</button>
+  </form>
+</view>

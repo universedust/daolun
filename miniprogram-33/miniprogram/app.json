@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/product/product",
+    "pages/about/about",
+    "pages/video/video",
+    "pages/comment/comment",
+    "pages/post/post",
+    "pages/exercise/exercise"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "武馆",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/exercise/exercise",
+        "text": "健身",
+        "iconPath": "images/健身.png",
+        "selectedIconPath": "images/健身.png"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "text": "视频",
+        "iconPath": "images/视频.png",
+        "selectedIconPath": "images/视频.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "动态",
+        "iconPath": "images/动态.png",
+        "selectedIconPath": "images/动态.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "个人",
+        "iconPath": "images/个人中心.png",
+        "selectedIconPath": "images/个人中心.png"
+      }
+    ]
+  }
+}

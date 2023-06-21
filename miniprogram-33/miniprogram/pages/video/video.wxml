@@ -1,0 +1,3 @@
+<!--pages/video/video.wxml-->
+<!-- 视频播放器 -->
+<video src="{{ videoSrc }}" controls></video>
